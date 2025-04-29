@@ -1,0 +1,103 @@
+/* Profile Page Styles */
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.profile-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.user-profile-section {
+  width: 300px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 auto 15px;
+}
+
+.name h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.follow-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.follow-btn:hover {
+  background-color: #0056b3;
+}
+
+.follower {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #bbbbbb;
+}
+
+.follower p {
+  margin: 5px 0;
+}
+
+.heat-map-section {
+  flex-grow: 1;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  min-height: 300px;
+}
+
+/* Navigation Bar */
+.underline-nav {
+  background-color: #1e1e1e;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #333;
+}
+
+/* Logout Button */
+#logout {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #ff4444;
+  color: white;
+  padding: 8px 14px;  /* Smaller padding */
+  border: none;
+  border-radius: 5px;  /* Smaller rounded edges */
+  cursor: pointer;
+  width: 150px;
+  font-size: 14px;  /* Smaller text */
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.2);
+}
+
+#logout:hover {
+  background-color: #cc0000;
+  transform: scale(1.05); /* Slight hover effect */
+}

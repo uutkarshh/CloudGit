@@ -1,0 +1,128 @@
+/* Base styles */
+body {
+  background-color: #121212; /* Light black background */
+  color: #e0e0e0; /* Light grey text */
+  font-family: Arial, sans-serif;
+}
+
+/* Main dashboard container */
+#dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Suggested repositories section */
+aside {
+  background-color: #1e1e1e; /* Dark background */
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+aside h3 {
+  color: #4e9bff; /* Blue color for the heading */
+}
+
+aside div {
+  background-color: #2d2d2d; /* Slightly lighter background for each repo item */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+aside div:hover {
+  background-color: #3a3a3a; /* Hover effect */
+}
+
+aside p {
+  color: #b0b0b0; /* Lighter grey text for descriptions */
+}
+
+/* Main repository section */
+main {
+  flex-grow: 1;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+main h3 {
+  color: #4e9bff; /* Blue color for the heading */
+}
+
+#search input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #4e9bff;
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+#search input::placeholder {
+  color: #b0b0b0;
+}
+
+/* Repository list items */
+main div {
+  background-color: #2d2d2d;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+main div:hover {
+  background-color: #3a3a3a;
+}
+
+main p {
+  color: #b0b0b0;
+}
+
+/* Repository content display */
+.repo-content {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.repo-content h3 {
+  color: #4e9bff;
+}
+
+.repo-content p {
+  color: #b0b0b0;
+}
+
+/* Upcoming events section */
+aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+aside ul li {
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+aside ul li:hover {
+  background-color: #3a3a3a;
+}
+
+aside ul li p {
+  color: #b0b0b0;
+}
